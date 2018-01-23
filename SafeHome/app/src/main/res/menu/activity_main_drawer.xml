@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_editInfo"
+            android:icon="@drawable/edit"
+            android:title="Edit info" />
+        <item
+            android:id="@+id/nav_resetPassword"
+            android:icon="@drawable/password"
+            android:title="Reset password" />
+        <item
+            android:id="@+id/nav_egy"
+            android:icon="@drawable/cut"
+            android:title="Emergency" />
+    </group>
+
+    <item android:title="Other">
+        <menu>
+            <item
+                android:id="@+id/nav_aboutUs"
+                android:icon="@drawable/favorites"
+                android:title="About us" />
+            <item
+                android:id="@+id/nav_version"
+                android:icon="@drawable/information"
+                android:title="version" />
+        </menu>
+    </item>
+
+</menu>
